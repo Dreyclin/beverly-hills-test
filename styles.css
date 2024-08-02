@@ -1,0 +1,43 @@
+/* COMMON STYLES */
+
+body {
+    font-family: "Arial", sans-serif;
+}
+
+/* COMMON STYLES */
+
+/* TEXT STYLES */
+
+.lg-title {
+    font-size: 2.5rem
+}
+
+.md-title {
+    font-size: 2rem
+}
+
+.sm-title {
+    font-size: 1.5rem
+}
+
+.lg-subtitle {
+    font-size: 1.33rem
+}
+
+.md-subtitle {
+    font-size: 1.16rem
+}
+
+.sm-subtitle {
+    font-size: 0.9rem
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.semi-bold {
+    font-weight: 600;
+}
+
+/* TEXT STYLES */
