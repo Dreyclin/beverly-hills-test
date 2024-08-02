@@ -15,7 +15,7 @@ h1 {
 }
 
 .hidden {
-    display: none!important;
+    display: none !important;
 }
 
 .active {
@@ -106,7 +106,7 @@ header i {
     font-size: 3rem;
 }
 
-header i:hover {    
+header i:hover {
     cursor: pointer;
 }
 
@@ -241,7 +241,8 @@ header i:hover {
 }
 
 .arrow {
-    position: absolute; /* Позволяет свободно позиционировать стрелку внутри контейнера */
+    position: absolute;
+    /* Позволяет свободно позиционировать стрелку внутри контейнера */
     top: 50%;
     right: 45%;
     transform: translateY(-50%) rotate(-45deg);
@@ -293,7 +294,7 @@ header i:hover {
     background-color: #0000007c;
 }
 
-.offer-form input::placeholder{
+.offer-form input::placeholder {
     color: #fff;
 }
 
@@ -333,7 +334,7 @@ footer {
     gap: 1.5rem;
 }
 
-.creator-container{
+.creator-container {
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -366,7 +367,8 @@ footer {
 /* BULLETS GLIDE */
 .glide__bullets {
     text-align: left;
-    margin-top: 2rem;
+    width: 90%;
+    margin: 2rem auto;
 }
 
 .glide__bullet {
@@ -385,3 +387,139 @@ footer {
 }
 
 /* BULLETS GLIDE */
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 321px) {
+    /* COMMON STYLES */
+
+    .container {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .burger-menu {
+        display: none !important;
+    }
+
+    /* TEXT STYLES */
+
+    .lg-title {
+        font-size: 2.5rem;
+        line-height: 2.3rem;
+    }
+
+    .md-title {
+        font-size: 2rem;
+        line-height: 1.5rem;
+    }
+
+    .sm-title {
+        font-size: 1.6rem;
+        line-height: 1.5rem;
+    }
+
+    .lg-subtitle {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    .md-subtitle {
+        font-size: 1.33rem;
+        line-height: 1.5rem;
+    }
+
+    .sm-subtitle {
+        font-size: 1.16rem;
+        line-height: 1.5rem;
+    }
+
+    .offer-button {
+        background-color: #fbd341;
+        padding: 1rem 1rem;
+        border-radius: 1rem;
+        font-size: 1rem;
+        transition: 0.5s ease-in-out;
+    }
+
+    .offer-button:hover {
+        background-color: #b5900c;
+    }
+
+    /* TEXT STYLES */
+
+    /* COMMON STYLES */
+
+    /* FIRST PAGE */
+
+    .nav-container {
+        display: flex!important;
+        align-items: flex-start;
+        justify-content: space-around;
+        margin: 0 0 6rem 0;
+    }
+
+    .nav-container .container {
+        width: 10%;
+        margin: 0;  
+    }
+
+    .navigation ul {
+        flex-direction: row;
+        gap: 2.5rem;
+        background-color: #fbd341;
+        border-radius: 1rem;
+        padding: 1rem;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 47%;
+        padding: 1rem;
+        background-color: transparent;
+    }
+
+    .nav-item .arrow{
+        right: -28%;
+    }
+
+    .nav-item ul{
+        display: flex;
+        flex-direction: column;
+        background-color: #0095ffb0;
+        border-radius: 0;
+        width: 300px;
+    }
+    
+    .header-contacts-container {
+        display: flex;
+        align-items: flex-start;
+        color: #fff;
+        justify-content: space-between;
+        gap: 4rem;
+        margin: 0 0 1rem 0;
+    }
+
+    /* FIRST PAGE */
+
+
+
+
+
+    /* BULLETS GLIDE */
+
+    .glide__bullets {
+        text-align: left;
+        width: 70%;
+        margin: 2rem auto;
+    }
+
+    /* BULLETS GLIDE */
+    
+}
+
+
+/* MEDIA QUERIES */
