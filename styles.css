@@ -543,6 +543,26 @@ footer {
 
     /* BULLETS GLIDE */
     
+
+    /* FOOTER */
+
+    .footer-container {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 5rem;
+    }
+
+    .footer-item {
+        width: 30%;
+    }
+
+    .footer-main {
+        width: 60%;
+    }
+
+
+    /* FOOTER */
+
 }
 
 
