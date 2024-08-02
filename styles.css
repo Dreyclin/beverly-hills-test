@@ -2,7 +2,6 @@
 
 body {
     font-family: "Arial", sans-serif;
-    background-color: gray;
 }
 
 h1 {
@@ -138,8 +137,9 @@ header {
 }
 
 .tour-item {
+    margin: 2rem 0 0 0;
     background-color: #f8f7f7;
-    padding: 0.5rem;
+    padding: 1rem;
     border-radius: 0.5rem;
     display: flex;
     flex-direction: column;
