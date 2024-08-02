@@ -4,6 +4,9 @@ const glide = new Glide('.glide', {
     breakpoints: {
         1920: {
             perView: 3
+        },
+        320: {
+            perView: 1
         }
     }
 }).mount();
@@ -11,6 +14,14 @@ const glide = new Glide('.glide', {
 const secondGlide = new Glide('.glide-adv', {
     type: 'carousel',
     perView: 1,
+    breakpoints: {
+        1920: {
+            perView: 3
+        },
+        320: {
+            perView: 1
+        }
+    }
 }).mount();
 
 const mainGlide = new Glide('.glide-main', {
@@ -19,7 +30,7 @@ const mainGlide = new Glide('.glide-main', {
 }).mount();
 
 $('#menu-toggler').on('click', () => {
-    $('.nav-container').toggleClass('hidden');
+    $('.navigation').toggleClass('hidden');
     $('header').toggleClass('zero-margin');
 })
 

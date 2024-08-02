@@ -13,7 +13,7 @@
 
 <body>
     <section class="first-page">
-        <div class="nav-container hidden">
+        <div class="nav-container">
             <div class="container">
                 <header>
                     <div class="logo-container">
@@ -22,8 +22,8 @@
                     <i class="fa-solid fa-bars burger-menu" id="menu-toggler"></i>
                 </header>
             </div>
-            <nav class="navigation">
-                <div class="header-contacts-container">
+            <nav class="navigation hidden">
+                <div class="header-contacts-container hidden">
                     <p class="md-subtitle"><i class="fa-solid fa-location-dot"></i> г. Харьков, ул.
                         Лермонтовская
                         10а</p>
@@ -176,8 +176,10 @@
                             </li>
                         </ul>
                     </div>
-
-                    <!-- SLIDER -->
+                    <div class="glide__arrows" data-glide-el="controls">
+                        <button class="glide__arrow glide__arrow--left" data-glide-dir="<">‹</button>
+                        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">›</button>
+                    </div>
                 </div>
             </div>
     </section>

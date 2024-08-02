@@ -474,7 +474,7 @@ footer {
     }
 
     .navigation {
-        display: flex;
+        display: flex!important;
         flex-direction: column;
         align-items: center;
         width: 47%;
@@ -499,7 +499,7 @@ footer {
     }
 
     .header-contacts-container {
-        display: flex;
+        display: flex!important;
         align-items: flex-start;
         color: #fff;
         justify-content: space-between;
@@ -617,6 +617,32 @@ footer {
     }
 
     /* BULLETS GLIDE */
+
+    /* GLIDE ARROWS */
+
+    .glide__arrow {
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 50px;
+        color: #333;
+    }
+    
+    .glide__arrow--left {
+        position: absolute;
+        top: 50%;
+        left: -30px;
+        transform: translateY(-50%);
+    }
+    
+    .glide__arrow--right {
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+    }
+
+    /* GLIDE ARROWS */
 
 }
 
