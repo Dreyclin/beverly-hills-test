@@ -137,6 +137,63 @@ header {
     cursor: pointer;
 }
 
+.tour-item {
+    background-color: #f8f7f7;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.tour-item-image {
+    display: flex;
+    justify-content: center;
+}
+
+.tour-item-image img {
+    width: 100%;
+}
+
+.tour-item .line {
+    border-top: 2px solid #eae9e9;
+    margin: 0.5rem 0;
+}
+
+.tour-item-about {
+    margin: 0 0 0.8rem 0;
+}
+
+.price-container {
+    display: flex;
+    gap: 0.2rem;
+}
+
+.for-person {
+    color: #a2a2a2;
+}
+
+.show-more-btn {
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    background-color: #fbd341;
+    border-radius: 50%;
+    margin: 1rem 0 0 0;
+}
+
+.arrow {
+    position: absolute; /* Позволяет свободно позиционировать стрелку внутри контейнера */
+    top: 50%;
+    right: 45%;
+    transform: translateY(-50%) rotate(-45deg);
+    width: 10px;
+    height: 10px;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+}
+
 /* TOURS */
 
 
