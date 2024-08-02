@@ -486,6 +486,10 @@ footer {
         right: -28%;
     }
 
+    .nav-item {
+        font-size: 1.33rem;
+    }
+
     .nav-item ul{
         display: flex;
         flex-direction: column;
@@ -499,7 +503,7 @@ footer {
         align-items: flex-start;
         color: #fff;
         justify-content: space-between;
-        gap: 4rem;
+        gap: 2rem;
         margin: 0 0 1rem 0;
     }
 
@@ -543,6 +547,30 @@ footer {
 
     /* BULLETS GLIDE */
     
+    /* OFFERS PAGE */
+
+    .offer-tour {
+        padding: 4rem 0;
+    }
+
+    .offer-tour-header {
+        padding: 0 0 3rem 0;
+    }   
+
+    .offer-form {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .offer-form input,
+    .offer-form select,
+    .offer-form .offer-button {
+        width: 18%;
+        margin: 0;
+    }
+
+    /* OFFERS PAGE */
 
     /* FOOTER */
 
