@@ -73,10 +73,11 @@ h1 {
     padding: 1rem 1rem;
     border-radius: 1rem;
     font-size: 1rem;
+    transition: 0.5s ease-in-out;
 }
 
 .offer-button:hover {
-
+    background-color: #b5900c;
 }
 
 /* TEXT STYLES */
@@ -99,6 +100,7 @@ header {
     background-image: url("images/First-Page/background.jpg");
     background-size: cover;
     background-position: center;
+    padding: 0 0 5rem 0;
 }
 
 .navigation {
@@ -151,6 +153,51 @@ header {
 
 
 /* ADVANTAGES */
+
+/* OFFER PAGE */
+
+.offer-tour {
+    padding: 2rem 0;
+    background-image: url("images/Offer-page/background.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.offer-tour-header {
+    padding: 0 0 2rem 0;
+    color: #fff;
+}
+
+.offer-form {
+    padding: 2rem 1rem;
+    background-color: #0000007c;
+}
+
+.offer-form input::placeholder{
+    color: #fff;
+}
+
+.offer-form input,
+.offer-form select {
+    border-bottom: 2px solid #676e78;
+    color: #fff;
+    margin: 0 0 2rem 0;
+    width: 100%;
+}
+
+.offer-form input {
+    padding: 0 0 0 0.3rem;
+}
+
+.offer-form option {
+    color: #000;
+}
+
+.offer-form .offer-button {
+    width: 100%;
+}
+
+/* OFFER PAGE */
 
 
 /* FOOTER */
