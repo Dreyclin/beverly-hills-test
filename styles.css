@@ -23,6 +23,11 @@ h1 {
     color: #fbd341;
 }
 
+.line {
+    border-top: 2px solid #38475f;
+    margin: 1.5rem 0;
+}
+
 /* TEXT STYLES */
 
 .lg-title {
@@ -68,6 +73,10 @@ h1 {
     padding: 1rem 1rem;
     border-radius: 1rem;
     font-size: 1rem;
+}
+
+.offer-button:hover {
+
 }
 
 /* TEXT STYLES */
@@ -127,3 +136,62 @@ header {
 }
 
 /* TOURS */
+
+
+/* ADVANTAGES */
+
+.advantages {
+    background-color: #f8f7f7;
+    padding: 2rem 0 4rem 0;
+}
+
+.advantages-header {
+    padding: 0 0 3rem 0;
+}
+
+
+/* ADVANTAGES */
+
+
+/* FOOTER */
+
+footer {
+    background-color: #22334d;
+    padding: 2rem 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.creator-container{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.footer-text:hover {
+    cursor: pointer;
+}
+
+.footer-text {
+    color: #fff;
+    padding: 0 0 0.5rem 0;
+}
+
+.footer-title {
+    padding: 0 0 2rem 0;
+}
+
+.socials-container {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.social-icon:hover {
+    cursor: pointer;
+}
+
+/* FOOTER */
