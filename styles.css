@@ -4,37 +4,53 @@ body {
     font-family: "Arial", sans-serif;
 }
 
-/* COMMON STYLES */
+h1 {
+    color: #fff;
+    padding: 0 0 2rem 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.active {
+    color: #fbd341;
+}
 
 /* TEXT STYLES */
 
 .lg-title {
-    font-size: 2.5rem;
-    line-height: 1.5rem;
+    font-size: 2.1rem;
+    line-height: 2.3rem;
 }
 
 .md-title {
-    font-size: 2rem;
+    font-size: 1.6rem;
     line-height: 1.5rem;
 }
 
 .sm-title {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 1.5rem;
 }
 
 .lg-subtitle {
-    font-size: 1.33rem;
+    font-size: 1rem;
     line-height: 1.5rem;
 }
 
 .md-subtitle {
-    font-size: 1.16rem;
+    font-size: 0.9rem;
     line-height: 1.5rem;
 }
 
 .sm-subtitle {
-    font-size: 0.9rem;
+    font-size: 0.4rem;
     line-height: 1.5rem;
 }
 
@@ -46,4 +62,45 @@ body {
     font-weight: 600;
 }
 
+.offer-button {
+    background-color: #fbd341;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+}
+
 /* TEXT STYLES */
+
+/* COMMON STYLES */
+
+
+/* FIRST-PAGE */
+
+header {
+    margin: 0 0 3rem 0;
+}
+
+.main-title-container {
+    background-color: #01344aa2;
+    padding: 2rem 0;
+}
+
+.first-page {
+    background-image: url("images/First-Page/background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.navigation {
+    background-color: #fbd341;
+    text-align: center;
+}
+
+.navigation ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+
+/* FIRST-PAGE */
