@@ -8,6 +8,11 @@ const secondGlide = new Glide('.glide-adv', {
     perView: 1,
 }).mount();
 
+const mainGlide = new Glide('.glide-main', {
+    type: 'carousel',
+    perView: 1
+}).mount();
+
 $('#menu-toggler').on('click', () => {
     $('.nav-container').toggleClass('hidden');
     $('header').toggleClass('zero-margin');
