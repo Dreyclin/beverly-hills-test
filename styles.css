@@ -15,7 +15,7 @@ h1 {
 }
 
 .hidden {
-    display: none;
+    display: none!important;
 }
 
 .active {
@@ -25,6 +25,14 @@ h1 {
 .line {
     border-top: 2px solid #38475f;
     margin: 1.5rem 0;
+}
+
+.zero-margin {
+    margin: 0;
+}
+
+li {
+    transition: 0.5s ease-in-out;
 }
 
 /* TEXT STYLES */
@@ -88,6 +96,18 @@ h1 {
 
 header {
     margin: 0 0 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header i {
+    color: #fff;
+    font-size: 3rem;
+}
+
+header i:hover {    
+    cursor: pointer;
 }
 
 .main-title-container {
@@ -111,6 +131,44 @@ header {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-item:hover {
+    cursor: pointer;
+}
+
+.nav-item .arrow {
+    position: absolute;
+    right: 30%;
+    top: 5px;
+    transform: rotate(45deg);
+}
+
+.nav-item ul {
+    background-color: #0095ffb0;
+    color: #fff;
+    font-weight: 400;
+}
+
+.nav-item ul {
+    position: absolute;
+    left: 15%;
+    width: 75%;
+    text-align: left;
+    padding: 2rem;
+    z-index: 100;
+}
+
+.nav-item ul li {
+    margin: 0 0 0.5rem 0;
+}
+
+.nav-item ul li:hover {
+    color: #fbd341;
 }
 
 /* FIRST-PAGE */
