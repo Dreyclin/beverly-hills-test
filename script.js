@@ -1,6 +1,11 @@
 const glide = new Glide('.glide', {
     type: 'carousel',
-    perView: 1
+    perView: 1,
+    breakpoints: {
+        1920: {
+            perView: 3
+        }
+    }
 }).mount();
 
 const secondGlide = new Glide('.glide-adv', {
