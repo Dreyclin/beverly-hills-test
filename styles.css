@@ -2,6 +2,7 @@
 
 body {
     font-family: "Arial", sans-serif;
+    background-color: gray;
 }
 
 h1 {
@@ -102,5 +103,27 @@ header {
     gap: 0.5rem;
 }
 
-
 /* FIRST-PAGE */
+
+/* TOURS */
+
+.tours {
+    padding: 2rem 0;
+}
+
+.tours-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.tours-title {
+    transition: 0.2s ease-in-out;
+}
+
+.tours-title:hover {
+    color: #fbd341;
+    cursor: pointer;
+}
+
+/* TOURS */
