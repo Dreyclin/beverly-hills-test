@@ -266,6 +266,11 @@ header i:hover {
     padding: 0 0 3rem 0;
 }
 
+.advantages-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
 
 /* ADVANTAGES */
 
